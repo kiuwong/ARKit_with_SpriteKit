@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		417A1B4122532CE7005D7D7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417A1B4022532CE7005D7D7B /* AppDelegate.swift */; };
+		417A1B4322532CE7005D7D7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417A1B4222532CE7005D7D7B /* ViewController.swift */; };
+		417A1B4622532CE7005D7D7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 417A1B4422532CE7005D7D7B /* Main.storyboard */; };
+		417A1B4922532CE7005D7D7B /* BirdGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 417A1B4722532CE7005D7D7B /* BirdGame.xcdatamodeld */; };
+		417A1B4B22532CE9005D7D7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 417A1B4A22532CE9005D7D7B /* Assets.xcassets */; };
+		417A1B4E22532CE9005D7D7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 417A1B4C22532CE9005D7D7B /* LaunchScreen.storyboard */; };
+		417A1B5922532CE9005D7D7B /* BirdGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417A1B5822532CE9005D7D7B /* BirdGameTests.swift */; };
+		417A1B6422532CE9005D7D7B /* BirdGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417A1B6322532CE9005D7D7B /* BirdGameUITests.swift */; };
+		417A1B7222532E4B005D7D7B /* Scene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 417A1B7122532E4B005D7D7B /* Scene.sks */; };
+		417A1B7422532E7D005D7D7B /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417A1B7322532E7D005D7D7B /* Scene.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		417A1B5522532CE9005D7D7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 417A1B3522532CE6005D7D7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 417A1B3C22532CE7005D7D7B;
+			remoteInfo = BirdGame;
+		};
+		417A1B6022532CE9005D7D7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 417A1B3522532CE6005D7D7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 417A1B3C22532CE7005D7D7B;
+			remoteInfo = BirdGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		417A1B3D22532CE7005D7D7B /* BirdGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirdGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		417A1B4022532CE7005D7D7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		417A1B4222532CE7005D7D7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		417A1B4522532CE7005D7D7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		417A1B4822532CE7005D7D7B /* BirdGame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BirdGame.xcdatamodel; sourceTree = "<group>"; };
+		417A1B4A22532CE9005D7D7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		417A1B4D22532CE9005D7D7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		417A1B4F22532CE9005D7D7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		417A1B5422532CE9005D7D7B /* BirdGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirdGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		417A1B5822532CE9005D7D7B /* BirdGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdGameTests.swift; sourceTree = "<group>"; };
+		417A1B5A22532CE9005D7D7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		417A1B5F22532CE9005D7D7B /* BirdGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirdGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		417A1B6322532CE9005D7D7B /* BirdGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdGameUITests.swift; sourceTree = "<group>"; };
+		417A1B6522532CE9005D7D7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		417A1B7122532E4B005D7D7B /* Scene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene.sks; sourceTree = "<group>"; };
+		417A1B7322532E7D005D7D7B /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		417A1B3A22532CE7005D7D7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417A1B5122532CE9005D7D7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417A1B5C22532CE9005D7D7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		417A1B3422532CE6005D7D7B = {
+			isa = PBXGroup;
+			children = (
+				417A1B3F22532CE7005D7D7B /* BirdGame */,
+				417A1B5722532CE9005D7D7B /* BirdGameTests */,
+				417A1B6222532CE9005D7D7B /* BirdGameUITests */,
+				417A1B3E22532CE7005D7D7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		417A1B3E22532CE7005D7D7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				417A1B3D22532CE7005D7D7B /* BirdGame.app */,
+				417A1B5422532CE9005D7D7B /* BirdGameTests.xctest */,
+				417A1B5F22532CE9005D7D7B /* BirdGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		417A1B3F22532CE7005D7D7B /* BirdGame */ = {
+			isa = PBXGroup;
+			children = (
+				417A1B4022532CE7005D7D7B /* AppDelegate.swift */,
+				417A1B4222532CE7005D7D7B /* ViewController.swift */,
+				417A1B7322532E7D005D7D7B /* Scene.swift */,
+				417A1B7122532E4B005D7D7B /* Scene.sks */,
+				417A1B4422532CE7005D7D7B /* Main.storyboard */,
+				417A1B4A22532CE9005D7D7B /* Assets.xcassets */,
+				417A1B4C22532CE9005D7D7B /* LaunchScreen.storyboard */,
+				417A1B4F22532CE9005D7D7B /* Info.plist */,
+				417A1B4722532CE7005D7D7B /* BirdGame.xcdatamodeld */,
+			);
+			path = BirdGame;
+			sourceTree = "<group>";
+		};
+		417A1B5722532CE9005D7D7B /* BirdGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				417A1B5822532CE9005D7D7B /* BirdGameTests.swift */,
+				417A1B5A22532CE9005D7D7B /* Info.plist */,
+			);
+			path = BirdGameTests;
+			sourceTree = "<group>";
+		};
+		417A1B6222532CE9005D7D7B /* BirdGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				417A1B6322532CE9005D7D7B /* BirdGameUITests.swift */,
+				417A1B6522532CE9005D7D7B /* Info.plist */,
+			);
+			path = BirdGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		417A1B3C22532CE7005D7D7B /* BirdGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 417A1B6822532CE9005D7D7B /* Build configuration list for PBXNativeTarget "BirdGame" */;
+			buildPhases = (
+				417A1B3922532CE7005D7D7B /* Sources */,
+				417A1B3A22532CE7005D7D7B /* Frameworks */,
+				417A1B3B22532CE7005D7D7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BirdGame;
+			productName = BirdGame;
+			productReference = 417A1B3D22532CE7005D7D7B /* BirdGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		417A1B5322532CE9005D7D7B /* BirdGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 417A1B6B22532CE9005D7D7B /* Build configuration list for PBXNativeTarget "BirdGameTests" */;
+			buildPhases = (
+				417A1B5022532CE9005D7D7B /* Sources */,
+				417A1B5122532CE9005D7D7B /* Frameworks */,
+				417A1B5222532CE9005D7D7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				417A1B5622532CE9005D7D7B /* PBXTargetDependency */,
+			);
+			name = BirdGameTests;
+			productName = BirdGameTests;
+			productReference = 417A1B5422532CE9005D7D7B /* BirdGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		417A1B5E22532CE9005D7D7B /* BirdGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 417A1B6E22532CE9005D7D7B /* Build configuration list for PBXNativeTarget "BirdGameUITests" */;
+			buildPhases = (
+				417A1B5B22532CE9005D7D7B /* Sources */,
+				417A1B5C22532CE9005D7D7B /* Frameworks */,
+				417A1B5D22532CE9005D7D7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				417A1B6122532CE9005D7D7B /* PBXTargetDependency */,
+			);
+			name = BirdGameUITests;
+			productName = BirdGameUITests;
+			productReference = 417A1B5F22532CE9005D7D7B /* BirdGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		417A1B3522532CE6005D7D7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = AlphaR;
+				TargetAttributes = {
+					417A1B3C22532CE7005D7D7B = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					417A1B5322532CE9005D7D7B = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 417A1B3C22532CE7005D7D7B;
+					};
+					417A1B5E22532CE9005D7D7B = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 417A1B3C22532CE7005D7D7B;
+					};
+				};
+			};
+			buildConfigurationList = 417A1B3822532CE6005D7D7B /* Build configuration list for PBXProject "BirdGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 417A1B3422532CE6005D7D7B;
+			productRefGroup = 417A1B3E22532CE7005D7D7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				417A1B3C22532CE7005D7D7B /* BirdGame */,
+				417A1B5322532CE9005D7D7B /* BirdGameTests */,
+				417A1B5E22532CE9005D7D7B /* BirdGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		417A1B3B22532CE7005D7D7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417A1B4E22532CE9005D7D7B /* LaunchScreen.storyboard in Resources */,
+				417A1B4B22532CE9005D7D7B /* Assets.xcassets in Resources */,
+				417A1B7222532E4B005D7D7B /* Scene.sks in Resources */,
+				417A1B4622532CE7005D7D7B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417A1B5222532CE9005D7D7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417A1B5D22532CE9005D7D7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		417A1B3922532CE7005D7D7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417A1B7422532E7D005D7D7B /* Scene.swift in Sources */,
+				417A1B4322532CE7005D7D7B /* ViewController.swift in Sources */,
+				417A1B4922532CE7005D7D7B /* BirdGame.xcdatamodeld in Sources */,
+				417A1B4122532CE7005D7D7B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417A1B5022532CE9005D7D7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417A1B5922532CE9005D7D7B /* BirdGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417A1B5B22532CE9005D7D7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417A1B6422532CE9005D7D7B /* BirdGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		417A1B5622532CE9005D7D7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 417A1B3C22532CE7005D7D7B /* BirdGame */;
+			targetProxy = 417A1B5522532CE9005D7D7B /* PBXContainerItemProxy */;
+		};
+		417A1B6122532CE9005D7D7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 417A1B3C22532CE7005D7D7B /* BirdGame */;
+			targetProxy = 417A1B6022532CE9005D7D7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		417A1B4422532CE7005D7D7B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				417A1B4522532CE7005D7D7B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		417A1B4C22532CE9005D7D7B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				417A1B4D22532CE9005D7D7B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		417A1B6622532CE9005D7D7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		417A1B6722532CE9005D7D7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		417A1B6922532CE9005D7D7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53M63NY77W;
+				INFOPLIST_FILE = BirdGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AlphaR.BirdGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		417A1B6A22532CE9005D7D7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53M63NY77W;
+				INFOPLIST_FILE = BirdGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AlphaR.BirdGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		417A1B6C22532CE9005D7D7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53M63NY77W;
+				INFOPLIST_FILE = BirdGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AlphaR.BirdGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BirdGame.app/BirdGame";
+			};
+			name = Debug;
+		};
+		417A1B6D22532CE9005D7D7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53M63NY77W;
+				INFOPLIST_FILE = BirdGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AlphaR.BirdGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BirdGame.app/BirdGame";
+			};
+			name = Release;
+		};
+		417A1B6F22532CE9005D7D7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53M63NY77W;
+				INFOPLIST_FILE = BirdGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AlphaR.BirdGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BirdGame;
+			};
+			name = Debug;
+		};
+		417A1B7022532CE9005D7D7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53M63NY77W;
+				INFOPLIST_FILE = BirdGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AlphaR.BirdGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BirdGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		417A1B3822532CE6005D7D7B /* Build configuration list for PBXProject "BirdGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				417A1B6622532CE9005D7D7B /* Debug */,
+				417A1B6722532CE9005D7D7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		417A1B6822532CE9005D7D7B /* Build configuration list for PBXNativeTarget "BirdGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				417A1B6922532CE9005D7D7B /* Debug */,
+				417A1B6A22532CE9005D7D7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		417A1B6B22532CE9005D7D7B /* Build configuration list for PBXNativeTarget "BirdGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				417A1B6C22532CE9005D7D7B /* Debug */,
+				417A1B6D22532CE9005D7D7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		417A1B6E22532CE9005D7D7B /* Build configuration list for PBXNativeTarget "BirdGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				417A1B6F22532CE9005D7D7B /* Debug */,
+				417A1B7022532CE9005D7D7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		417A1B4722532CE7005D7D7B /* BirdGame.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				417A1B4822532CE7005D7D7B /* BirdGame.xcdatamodel */,
+			);
+			currentVersion = 417A1B4822532CE7005D7D7B /* BirdGame.xcdatamodel */;
+			path = BirdGame.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 417A1B3522532CE6005D7D7B /* Project object */;
+}
