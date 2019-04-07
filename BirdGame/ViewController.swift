@@ -17,6 +17,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
+        sceneView.delegate = self
         
         if let scene = SKScene(fileNamed: "Scene") {
             sceneView.presentScene(scene)
@@ -48,6 +49,19 @@ class ViewController: UIViewController {
 }
 
 extension ViewController : ARSKViewDelegate {
+    
+//    func view(_ view: ARSKView, nodeFor anchor: ARAnchor) -> SKNode? {
+//
+//    }
+    
+    func view(_ view: ARSKView, didAdd node: SKNode, for anchor: ARAnchor) {
+        let birdNode = SKSpriteNode(imageNamed: "bird")
+        birdNode.xScale = 0.30
+        birdNode.yScale = 0.30
+        
+        node.addChild(birdNode)
+    }
+    
     func session(_ session: ARSession, didFailWithError error: Error) {
         // Present an error message to the user
     }
