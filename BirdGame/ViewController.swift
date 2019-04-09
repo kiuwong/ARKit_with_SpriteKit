@@ -11,15 +11,22 @@ import SpriteKit
 import ARKit
 
 class ViewController: UIViewController {
+    
     @IBOutlet var sceneView: ARSKView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
+        // Set the view's delegate
         sceneView.delegate = self
         
-        if let scene = SKScene(fileNamed: "Scene") {
+        // Show Statistics such as FPS and node count
+        sceneView.showsFPS = true
+        sceneView.showsNodeCount = true
+        
+        // Load the SKScene
+        if let scene = MainMenuScene(fileNamed: "MainMenuScene") {
             sceneView.presentScene(scene)
         }
     }
@@ -27,17 +34,19 @@ class ViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
+        // create a session configuration
         let configuration = ARWorldTrackingConfiguration()
         
+        // Run the View's Session
         sceneView.session.run(configuration)
     }
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
+        
+        // Pause the View's Session
         sceneView.session.pause()
     }
-    
-    
     // handle pause of session when view will disappear
     
     override func didReceiveMemoryWarning() {
@@ -50,17 +59,26 @@ class ViewController: UIViewController {
 
 extension ViewController : ARSKViewDelegate {
     
-//    func view(_ view: ARSKView, nodeFor anchor: ARAnchor) -> SKNode? {
-//
-//    }
-    
-    func view(_ view: ARSKView, didAdd node: SKNode, for anchor: ARAnchor) {
-        let birdNode = SKSpriteNode(imageNamed: "bird")
-        birdNode.xScale = 0.30
-        birdNode.yScale = 0.30
+    func view(_ view: ARSKView, nodeFor anchor: ARAnchor) -> SKNode? {
         
-        node.addChild(birdNode)
+        if GameScene.gameState == .spwanBirds {
+            let bird = Bird()
+            bird.setup()
+            return bird
+        } else {
+            
+        return SKNode()
+            
+        }
     }
+    
+//    func view(_ view: ARSKView, didAdd node: SKNode, for anchor: ARAnchor) {
+//        let birdNode = SKSpriteNode(imageNamed: "bird")
+//        birdNode.xScale = 0.30
+//        birdNode.yScale = 0.30
+//
+//        node.addChild(birdNode)
+//    }
     
     func session(_ session: ARSession, didFailWithError error: Error) {
         // Present an error message to the user
