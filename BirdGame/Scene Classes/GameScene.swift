@@ -60,16 +60,16 @@ class GameScene: SKScene {
     }
     
     override func didMove(to view: SKView) {
-        NotificationCenter.default.addObserver(self, selector: #selector(GameScene.spwanBird), name: Notification.Name("Spawn"), object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(GameScene.spawnBird), name: Notification.Name("Spawn"), object: nil)
         
         setupHUD()
         
         let waitAction = SKAction.wait(forDuration: 0.5)
-        let spwanAction = SKAction.run {
-            self.performInitialSpwan()
+        let spawnAction = SKAction.run {
+            self.performInitialspawn()
         }
         
-        self.run(SKAction.sequence([waitAction, spwanAction]))
+        self.run(SKAction.sequence([waitAction, spawnAction]))
         
     }
     
@@ -92,7 +92,7 @@ class GameScene: SKScene {
                             if let potentialTargetBird = sceneView.node(for: anchor) {
                                 if bird == potentialTargetBird {
                                     bird.removeFromParent()
-                                    spwanBird()
+                                    spawnBird()
                                     score += 1
                                 }
                             }
@@ -104,16 +104,16 @@ class GameScene: SKScene {
     }
     
     
-    func performInitialSpwan() {
+    func performInitialspawn() {
         
-        GameScene.gameState = .spwanBirds
+        GameScene.gameState = .spawnBirds
         
         for _ in 1 ... numberOfBirds {
-            spwanBird()
+            spawnBird()
         }
     }
     
-    @objc func spwanBird() {
+    @objc func spawnBird() {
         
         guard let sceneView = self.view as? ARSKView else {return}
         

@@ -9,7 +9,7 @@
 import Foundation
 
 enum GameState:Int {
-    case none, spwanBirds
+    case none, spawnBirds
 }
 
 func randomPosition (lowerBound lower:Float, upperBound upper:Float) -> Float {
