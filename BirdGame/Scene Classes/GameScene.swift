@@ -36,7 +36,7 @@ class GameScene: SKScene {
         counterLabel = self.childNode(withName: "counterLabel") as! SKLabelNode
         
         timerLabel.position = CGPoint(x: (self.size.width / 2) - 70, y: (self.size.height / 2) - 90)
-        counterLabel.position = CGPoint(x: (self.size.width / 2) - 70, y: (self.size.height / 2) - 90)
+        counterLabel.position = CGPoint(x: (self.size.width / 2) - 280, y: (self.size.height / 2) - 90)
         
         let wait = SKAction.wait(forDuration: 1)
         let action = SKAction.run {
