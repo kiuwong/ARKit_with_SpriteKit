@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BirdGame.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>bitcode</key>
+			<true/>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>74CC6F5F86F4E6346C006B5D7B9E174127C1F1EE</string>
+				<key>dateExpires</key>
+				<string>4/13/20</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>bitcode</key>
+					<true/>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>74CC6F5F86F4E6346C006B5D7B9E174127C1F1EE</string>
+						<key>dateExpires</key>
+						<string>4/13/20</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>BLECore.framework</string>
+					<key>symbols</key>
+					<true/>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>8R5TTWTF72</string>
+						<key>name</key>
+						<string>ALPHAR, INC.</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>bitcode</key>
+					<true/>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>74CC6F5F86F4E6346C006B5D7B9E174127C1F1EE</string>
+						<key>dateExpires</key>
+						<string>4/13/20</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>BoseWearable.framework</string>
+					<key>symbols</key>
+					<true/>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>8R5TTWTF72</string>
+						<key>name</key>
+						<string>ALPHAR, INC.</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>bitcode</key>
+					<true/>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>74CC6F5F86F4E6346C006B5D7B9E174127C1F1EE</string>
+						<key>dateExpires</key>
+						<string>4/13/20</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>Logging.framework</string>
+					<key>symbols</key>
+					<true/>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>8R5TTWTF72</string>
+						<key>name</key>
+						<string>ALPHAR, INC.</string>
+					</dict>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>8R5TTWTF72.AlphaR.BirdHunt.BoseAR</string>
+				<key>beta-reports-active</key>
+				<true/>
+				<key>com.apple.developer.team-identifier</key>
+				<string>8R5TTWTF72</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>8R5TTWTF72.AlphaR.BirdHunt.BoseAR</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>BirdGame.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>5e464499-ed97-4dfc-a26f-905e2853d1fb</string>
+				<key>name</key>
+				<string>iOS Team Store Provisioning Profile: AlphaR.BirdHunt.BoseAR</string>
+			</dict>
+			<key>symbols</key>
+			<true/>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>8R5TTWTF72</string>
+				<key>name</key>
+				<string>ALPHAR, INC.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

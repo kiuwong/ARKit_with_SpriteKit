@@ -27,7 +27,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        }
         
         // Enable common logging categories. Remove this from production code.
-        BoseWearable.enableCommonLogging()
+//        BoseWearable.enableCommonLogging()
         
         // Configure the BoseWearable SDK.
         BoseWearable.configure()

@@ -12,6 +12,7 @@ enum GameState:Int {
     case none, spawnBirds
 }
 
+
 func randomPosition (lowerBound lower:Float, upperBound upper:Float) -> Float {
     return Float(arc4random()) / Float(UInt32.max) * (lower - upper) + upper
 }
@@ -19,3 +20,4 @@ func randomPosition (lowerBound lower:Float, upperBound upper:Float) -> Float {
 func randomNumber (lowerBound lower:Int, upperBound upper:Int) -> Int {
     return Int(arc4random()) / Int(UInt32.max) * (lower - upper) + upper
 }
+ 
