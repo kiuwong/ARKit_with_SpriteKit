@@ -1,1 +1,1 @@
-# ARKit_with_SpriteKit
+# BirdHunt - iOS app using ARKit, SpriteKit and BoseAR
