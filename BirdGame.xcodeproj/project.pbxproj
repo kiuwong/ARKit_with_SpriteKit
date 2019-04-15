@@ -3,13 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		165EF045345B6C83F7EEF477 /* Pods_BirdGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F186402E91D3D9EB2262B70A /* Pods_BirdGame.framework */; };
 		4120DA4B225BE1EB00BEA3AE /* Bird.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4120DA4A225BE1EA00BEA3AE /* Bird.swift */; };
+		4120DA5822613CE900BEA3AE /* UIFont+MonospacedNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4120DA5222613CE900BEA3AE /* UIFont+MonospacedNumbers.swift */; };
+		4120DA5922613CE900BEA3AE /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4120DA5322613CE900BEA3AE /* UIViewController+Alert.swift */; };
+		4120DA5A22613CE900BEA3AE /* UIViewController+Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4120DA5422613CE900BEA3AE /* UIViewController+Format.swift */; };
+		4120DA5B22613CE900BEA3AE /* SuspensionOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4120DA5622613CE900BEA3AE /* SuspensionOverlay.swift */; };
+		4120DA5C22613CE900BEA3AE /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4120DA5722613CE900BEA3AE /* ActivityIndicator.swift */; };
+		4120DA5F226143CB00BEA3AE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4120DA5E226143CB00BEA3AE /* HomeViewController.swift */; };
+		4120DA612263A77900BEA3AE /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4120DA602263A77900BEA3AE /* SettingsViewController.swift */; };
 		417A1B4122532CE7005D7D7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417A1B4022532CE7005D7D7B /* AppDelegate.swift */; };
-		417A1B4322532CE7005D7D7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417A1B4222532CE7005D7D7B /* ViewController.swift */; };
+		417A1B4322532CE7005D7D7B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417A1B4222532CE7005D7D7B /* GameViewController.swift */; };
 		417A1B4622532CE7005D7D7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 417A1B4422532CE7005D7D7B /* Main.storyboard */; };
 		417A1B4922532CE7005D7D7B /* BirdGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 417A1B4722532CE7005D7D7B /* BirdGame.xcdatamodeld */; };
 		417A1B4B22532CE9005D7D7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 417A1B4A22532CE9005D7D7B /* Assets.xcassets */; };
@@ -22,6 +30,8 @@
 		41D95AEE225BAE8C00D4B616 /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D95AED225BAE8C00D4B616 /* MainMenuScene.swift */; };
 		41D95AF2225BBC0C00D4B616 /* MainMenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 41D95AF1225BBC0C00D4B616 /* MainMenuScene.sks */; };
 		41D95AF6225BBC8100D4B616 /* bird.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 41D95AF5225BBC8100D4B616 /* bird.atlas */; };
+		4A38FFF2B79A8D49F534BAA6 /* Pods_BirdGameTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 452974022C664167740C5283 /* Pods_BirdGameTests.framework */; };
+		788A942BF61B6B0A6FF14094 /* Pods_BirdGameUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 755099DBF5DCC5DA57ACF508 /* Pods_BirdGameUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,10 +52,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		150DC50518F6208AFE75F757 /* Pods-BirdGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BirdGame.debug.xcconfig"; path = "Target Support Files/Pods-BirdGame/Pods-BirdGame.debug.xcconfig"; sourceTree = "<group>"; };
+		2814B5734D1E130E154674C4 /* Pods-BirdGameUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BirdGameUITests.release.xcconfig"; path = "Target Support Files/Pods-BirdGameUITests/Pods-BirdGameUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2E4A14A381BCA2718B04D7C4 /* Pods-BirdGameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BirdGameTests.debug.xcconfig"; path = "Target Support Files/Pods-BirdGameTests/Pods-BirdGameTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4120DA4A225BE1EA00BEA3AE /* Bird.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bird.swift; sourceTree = "<group>"; };
+		4120DA5222613CE900BEA3AE /* UIFont+MonospacedNumbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+MonospacedNumbers.swift"; sourceTree = "<group>"; };
+		4120DA5322613CE900BEA3AE /* UIViewController+Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
+		4120DA5422613CE900BEA3AE /* UIViewController+Format.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Format.swift"; sourceTree = "<group>"; };
+		4120DA5622613CE900BEA3AE /* SuspensionOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuspensionOverlay.swift; sourceTree = "<group>"; };
+		4120DA5722613CE900BEA3AE /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		4120DA5E226143CB00BEA3AE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4120DA602263A77900BEA3AE /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		417A1B3D22532CE7005D7D7B /* BirdGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirdGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		417A1B4022532CE7005D7D7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		417A1B4222532CE7005D7D7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		417A1B4222532CE7005D7D7B /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		417A1B4522532CE7005D7D7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		417A1B4822532CE7005D7D7B /* BirdGame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BirdGame.xcdatamodel; sourceTree = "<group>"; };
 		417A1B4A22532CE9005D7D7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -63,6 +83,12 @@
 		41D95AED225BAE8C00D4B616 /* MainMenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
 		41D95AF1225BBC0C00D4B616 /* MainMenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenuScene.sks; sourceTree = "<group>"; };
 		41D95AF5225BBC8100D4B616 /* bird.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = bird.atlas; sourceTree = "<group>"; };
+		452974022C664167740C5283 /* Pods_BirdGameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BirdGameTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		755099DBF5DCC5DA57ACF508 /* Pods_BirdGameUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BirdGameUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A7BB9CDA9BF4E8A5407EACF /* Pods-BirdGameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BirdGameTests.release.xcconfig"; path = "Target Support Files/Pods-BirdGameTests/Pods-BirdGameTests.release.xcconfig"; sourceTree = "<group>"; };
+		BC503779F5742A72C5B8CA3B /* Pods-BirdGameUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BirdGameUITests.debug.xcconfig"; path = "Target Support Files/Pods-BirdGameUITests/Pods-BirdGameUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C28EDF043D8868C84933FF00 /* Pods-BirdGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BirdGame.release.xcconfig"; path = "Target Support Files/Pods-BirdGame/Pods-BirdGame.release.xcconfig"; sourceTree = "<group>"; };
+		F186402E91D3D9EB2262B70A /* Pods_BirdGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BirdGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				165EF045345B6C83F7EEF477 /* Pods_BirdGame.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A38FFF2B79A8D49F534BAA6 /* Pods_BirdGameTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,12 +112,51 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				788A942BF61B6B0A6FF14094 /* Pods_BirdGameUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4120DA5022613CE900BEA3AE /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4120DA5122613CE900BEA3AE /* Extensions */,
+				4120DA5522613CE900BEA3AE /* Views */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		4120DA5122613CE900BEA3AE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4120DA5222613CE900BEA3AE /* UIFont+MonospacedNumbers.swift */,
+				4120DA5322613CE900BEA3AE /* UIViewController+Alert.swift */,
+				4120DA5422613CE900BEA3AE /* UIViewController+Format.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4120DA5522613CE900BEA3AE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4120DA5622613CE900BEA3AE /* SuspensionOverlay.swift */,
+				4120DA5722613CE900BEA3AE /* ActivityIndicator.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4120DA5D2261432D00BEA3AE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4120DA5E226143CB00BEA3AE /* HomeViewController.swift */,
+				417A1B4222532CE7005D7D7B /* GameViewController.swift */,
+				4120DA602263A77900BEA3AE /* SettingsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		417A1B3422532CE6005D7D7B = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +164,8 @@
 				417A1B5722532CE9005D7D7B /* BirdGameTests */,
 				417A1B6222532CE9005D7D7B /* BirdGameUITests */,
 				417A1B3E22532CE7005D7D7B /* Products */,
+				A0C6E78E52D4E0AECBC00175 /* Pods */,
+				E78F278C9DFEAC1127AA1469 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,7 +184,8 @@
 			children = (
 				41D95AE8225BABF400D4B616 /* Helpers.swift */,
 				417A1B4022532CE7005D7D7B /* AppDelegate.swift */,
-				417A1B4222532CE7005D7D7B /* ViewController.swift */,
+				4120DA5022613CE900BEA3AE /* Common */,
+				4120DA5D2261432D00BEA3AE /* ViewControllers */,
 				41D95AEA225BAD8E00D4B616 /* Scene Classes */,
 				41D95AEC225BAE5300D4B616 /* Sprites */,
 				41D95AEB225BADDD00D4B616 /* Scene Files */,
@@ -173,6 +243,29 @@
 			path = Sprites;
 			sourceTree = "<group>";
 		};
+		A0C6E78E52D4E0AECBC00175 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				150DC50518F6208AFE75F757 /* Pods-BirdGame.debug.xcconfig */,
+				C28EDF043D8868C84933FF00 /* Pods-BirdGame.release.xcconfig */,
+				2E4A14A381BCA2718B04D7C4 /* Pods-BirdGameTests.debug.xcconfig */,
+				9A7BB9CDA9BF4E8A5407EACF /* Pods-BirdGameTests.release.xcconfig */,
+				BC503779F5742A72C5B8CA3B /* Pods-BirdGameUITests.debug.xcconfig */,
+				2814B5734D1E130E154674C4 /* Pods-BirdGameUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E78F278C9DFEAC1127AA1469 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F186402E91D3D9EB2262B70A /* Pods_BirdGame.framework */,
+				452974022C664167740C5283 /* Pods_BirdGameTests.framework */,
+				755099DBF5DCC5DA57ACF508 /* Pods_BirdGameUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -180,9 +273,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 417A1B6822532CE9005D7D7B /* Build configuration list for PBXNativeTarget "BirdGame" */;
 			buildPhases = (
+				D38AE76E43DDAB127F61A8F9 /* [CP] Check Pods Manifest.lock */,
 				417A1B3922532CE7005D7D7B /* Sources */,
 				417A1B3A22532CE7005D7D7B /* Frameworks */,
 				417A1B3B22532CE7005D7D7B /* Resources */,
+				9E5663994578A99CEC620FFA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -197,6 +292,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 417A1B6B22532CE9005D7D7B /* Build configuration list for PBXNativeTarget "BirdGameTests" */;
 			buildPhases = (
+				B78251926B3859B00FF8D35A /* [CP] Check Pods Manifest.lock */,
 				417A1B5022532CE9005D7D7B /* Sources */,
 				417A1B5122532CE9005D7D7B /* Frameworks */,
 				417A1B5222532CE9005D7D7B /* Resources */,
@@ -215,6 +311,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 417A1B6E22532CE9005D7D7B /* Build configuration list for PBXNativeTarget "BirdGameUITests" */;
 			buildPhases = (
+				4E801F600D8F7B3CB554F819 /* [CP] Check Pods Manifest.lock */,
 				417A1B5B22532CE9005D7D7B /* Sources */,
 				417A1B5C22532CE9005D7D7B /* Frameworks */,
 				417A1B5D22532CE9005D7D7B /* Resources */,
@@ -302,17 +399,110 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4E801F600D8F7B3CB554F819 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BirdGameUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E5663994578A99CEC620FFA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BirdGame/Pods-BirdGame-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BirdGame/Pods-BirdGame-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BirdGame/Pods-BirdGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B78251926B3859B00FF8D35A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BirdGameTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D38AE76E43DDAB127F61A8F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BirdGame-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		417A1B3922532CE7005D7D7B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4120DA5922613CE900BEA3AE /* UIViewController+Alert.swift in Sources */,
+				4120DA5A22613CE900BEA3AE /* UIViewController+Format.swift in Sources */,
 				41D95AEE225BAE8C00D4B616 /* MainMenuScene.swift in Sources */,
 				4120DA4B225BE1EB00BEA3AE /* Bird.swift in Sources */,
+				4120DA5C22613CE900BEA3AE /* ActivityIndicator.swift in Sources */,
 				417A1B7422532E7D005D7D7B /* GameScene.swift in Sources */,
-				417A1B4322532CE7005D7D7B /* ViewController.swift in Sources */,
+				417A1B4322532CE7005D7D7B /* GameViewController.swift in Sources */,
 				417A1B4922532CE7005D7D7B /* BirdGame.xcdatamodeld in Sources */,
 				41D95AE9225BABF400D4B616 /* Helpers.swift in Sources */,
+				4120DA612263A77900BEA3AE /* SettingsViewController.swift in Sources */,
+				4120DA5822613CE900BEA3AE /* UIFont+MonospacedNumbers.swift in Sources */,
+				4120DA5B22613CE900BEA3AE /* SuspensionOverlay.swift in Sources */,
+				4120DA5F226143CB00BEA3AE /* HomeViewController.swift in Sources */,
 				417A1B4122532CE7005D7D7B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -486,6 +676,7 @@
 		};
 		417A1B6922532CE9005D7D7B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 150DC50518F6208AFE75F757 /* Pods-BirdGame.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +695,7 @@
 		};
 		417A1B6A22532CE9005D7D7B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C28EDF043D8868C84933FF00 /* Pods-BirdGame.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -522,6 +714,7 @@
 		};
 		417A1B6C22532CE9005D7D7B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E4A14A381BCA2718B04D7C4 /* Pods-BirdGameTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -543,6 +736,7 @@
 		};
 		417A1B6D22532CE9005D7D7B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A7BB9CDA9BF4E8A5407EACF /* Pods-BirdGameTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -564,6 +758,7 @@
 		};
 		417A1B6F22532CE9005D7D7B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC503779F5742A72C5B8CA3B /* Pods-BirdGameUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -584,6 +779,7 @@
 		};
 		417A1B7022532CE9005D7D7B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2814B5734D1E130E154674C4 /* Pods-BirdGameUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

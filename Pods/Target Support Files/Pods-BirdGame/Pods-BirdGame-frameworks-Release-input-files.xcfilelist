@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-BirdGame/Pods-BirdGame-frameworks.sh
+${PODS_ROOT}/../BoseWearable/Frameworks/iOS/BLECore.framework
+${PODS_ROOT}/../BoseWearable/Frameworks/iOS/BoseWearable.framework
+${PODS_ROOT}/../BoseWearable/Frameworks/iOS/Logging.framework

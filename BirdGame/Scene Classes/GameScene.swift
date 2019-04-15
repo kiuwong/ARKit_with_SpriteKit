@@ -9,15 +9,16 @@
 import UIKit
 import SpriteKit
 import ARKit
+import BoseWearable
 
 // used to create anchors
 class GameScene: SKScene {
     
-    var numberOfBirds = 10
+    var numberOfBirds = 20
     var timerLabel:SKLabelNode!
     var counterLabel:SKLabelNode!
     
-    var remainingTime:Int = 30 {
+    var remainingTime:Int = 60 {
         didSet{
             timerLabel.text = "\(remainingTime) sec"
         }
@@ -32,11 +33,11 @@ class GameScene: SKScene {
     static var gameState:GameState = .none
     
     func setupHUD() {
-        timerLabel = self.childNode(withName: "timerLabel") as! SKLabelNode
-        counterLabel = self.childNode(withName: "counterLabel") as! SKLabelNode
+        timerLabel = (self.childNode(withName: "timerLabel") as! SKLabelNode)
+        counterLabel = (self.childNode(withName: "counterLabel") as! SKLabelNode)
         
-        timerLabel.position = CGPoint(x: (self.size.width / 2) - 70, y: (self.size.height / 2) - 90)
-        counterLabel.position = CGPoint(x: (self.size.width / 2) - 280, y: (self.size.height / 2) - 90)
+        timerLabel.position = CGPoint(x: (self.size.width / 2) - 70, y: (self.size.height / 2) - 120)
+        counterLabel.position = CGPoint(x: (self.size.width / 2) - 280, y: (self.size.height / 2) - 120)
         
         let wait = SKAction.wait(forDuration: 1)
         let action = SKAction.run {
